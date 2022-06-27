@@ -7,7 +7,8 @@ A termék használata regisztrációhoz kötött. Az azonosítás Google account
 
 A főoldalon [NeerY](https://places.neery.net){: .btn } a "Kezdd el" gombra kattintva kezdhető el a regisztrációs folyamat. Itt először a Google fiókkal kell bejelentkezni, majd végigvezetünk a szükséges információ kitöltésén.
 
-Fontos {: .label .label-red }
+Fontos
+{: .label .label-blue }
 
 Az első lapon levő "Tulajdonos" és "Üzlet" adatok nem változtathatóak meg a későbbiekben a honlapon keresztül, minden más igen. Az itt megadott telefonszám és e-mail cím azonosításre és ellenőrzésre szolgálnak nem pedig a foglalások és rendelések felvételére!
 
