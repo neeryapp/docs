@@ -38,9 +38,16 @@ A foglalási rendszer használható "Full-Auto" és "Manual" üzemmódokban (A "
 Ha az Autotable "Full-Auto" üzemmódban van, akkor a rendszer a bejövő foglalásokat megpróbálja elhelyezni az asztalokon. Amennyiben nem sikerül, akkor azt a foglalást átrakja "Manuális"-ra és erről üzenetet küld a helynek.
 
 ### Profil
+A profil menüpontban változtathatóak meg azok az információk, amik a vendég számára valahogy elérhetőek.
 
 #### Információ
+Itt az általános adatok és a foglalási szabályok találhatóak jelenleg.
 
 #### Widget
+A widget integrációját segítő menüpont. Amennyiben bővebb technikai segítségre lenne szükség keressen minket bizalommal.
+[Facebook integráció videó](https://www.loom.com/share/2d6c1e6ab24f4c6e98390eb0a517e239)
+
+Az oldalon található teszt widget mindig az adott helyhez van kötve, így itt akár teszthelhed a foglalási ciklust.
 
 #### Törlés
+A hely végleges törlése. Nem visszavonható művelet, minden adat elveszik.
