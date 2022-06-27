@@ -7,7 +7,7 @@ Fontos: {.text-red-100} A termék használata regisztrációhoz kötött. Az azo
 
 A [főoldalon](https://places.neery.net) a "Kezdd el" gombra kattintva kezdhető el a regisztrációs folyamat. Itt először a Google fiókkal kell bejelentkezni, majd végigvezetünk a szükséges információ kitöltésén.
 
-[Fontos:] {.text-red-100}Az első lapon levő "Tulajdonos" és "Üzlet" adatok nem változtathatóak meg a későbbiekben a honlapon keresztül, minden más igen. Az itt megadott telefonszám és e-mail cím azonosításre és ellenőrzésre szolgálnak nem pedig a foglalások és rendelések felvételére!
+Fontos: {.text-red-100}Az első lapon levő "Tulajdonos" és "Üzlet" adatok nem változtathatóak meg a későbbiekben a honlapon keresztül, minden más igen. Az itt megadott telefonszám és e-mail cím azonosításre és ellenőrzésre szolgálnak nem pedig a foglalások és rendelések felvételére!
 
 Külön említést érdemel még a "Szabályok" lap, ami a foglalás kezelés beállítására szolgál. Itt az objektumok melletti kis kérdőjelek fölé víve az egeret további információ/magyarázat található.
 
@@ -21,15 +21,21 @@ A "Főmenü" a képernyő tetején található sáv. Itt lehet helyek között v
 Az "Almenüben" a "Naptár" illetve a "Profil" nézet között lehet váltani.
 
 ### Naptár
-A naptár nézetben jelennek meg a foglalások.
+A naptár nézetben jelennek meg a foglalások és majd a rendelések is (Wolt. Foodpanda integráció folyamatban). A "Függőben" menüsorban az el nem fogadott foglalások találhatóak (lsd Üzemmód). Itt lehet létrehozni asztalt vagy Manuális foglalást (Walk in, telefon, stb) is. Ahhoz, hogy a foglalási rendszer működjön minimum 1 asztalt létre kell hozni és a nyitvatartást meg kell határozni. A rendszer nem mutatja a nyitvatartáson kívüli időket/foglalásokat, igaz ezek csak és kizárólag az étterem által hozhatóak létre, vendég által nem!
 
 #### Nap váltás
+Napot vagy a dátum melletti nyilakkal, vagy a naptár ikonnal lehet váltani.
 
-#### Asztal létrehozáse
+#### Asztal létrehozása
+Ahhoz, hogy foglalások megvalósulhassanak létre kell hozni (legalább) 1 asztalt. Ezt az "Asztal létrehozása" gombra kattintva tehetjük meg. Ekkor felugrik egy új ablak, ahol az asztal elnevezését és a férőhelyek számát lehet megadni. Ezen információ a vendég számára nem publikus.
+A létrehozott asztal utólag szerkeszthető/törölhető.
 
 #### Manuális foglalás
+Manuális  azok a foglalások, amiket a hely maga ad hozzá (jellemzően walk-in, telefonos foglalás stb). Ekkor a kötelezően kitöltendő mezők az időpont és az asztal. Ha ez megtörténik a rendszer automatikusan felhelyezi a foglalást a kiválasztott asztalra. Amennyiben a "Név" és "E-mail" cím is kitöltésre kerül, akkor a vendégnek egy üzenetet is küldünk a foglalás megerősítéséről.
 
 #### Üzemmód
+A foglalási rendszer használható "Full-Auto" és "Manual" üzemmódokban (A "Manual" nem összekeverendő az előző "Manuális foglalás" menüponttal. Beállítása: "Profil" menüpont, "Információ" almenü "Autotable" szekció). AMennyiben az Autotable Manual üzemmüdban van, akkor az összes beérkező foglalás a "Függőben" menüsorba kerül, és a helynek egyenként kell ezeket elfogadnia/elutasítania. Erre a foglalás távolságától függően van ideje.
+Ha az Autotable "Full-Auto" üzemmódban van, akkor a rendszer a bejövő foglalásokat megpróbálja elhelyezni az asztalokon. Amennyiben nem sikerül, akkor azt a foglalást átrakja "Manuális"-ra és erről üzenetet küld a helynek.
 
 ### Profil
 
