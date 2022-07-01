@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Registration
+title: Regisztráció
 nav_order: 2
 ---
 # Regisztráció
