@@ -8,8 +8,15 @@ Fontos: A termék használata regisztrációhoz kötött. Az azonosítás Google
 
 A [főoldalon](https://places.neery.net) a "Kezdd el" gombra kattintva kezdhető el a regisztrációs folyamat. Itt először a Google fiókkal kell bejelentkezni, majd végigvezetünk a szükséges információ kitöltésén.
 
-Fontos: Az első lapon levő "Tulajdonos" és "Üzlet" adatok nem változtathatóak meg a későbbiekben a honlapon keresztül, minden más igen. Az itt megadott telefonszám és e-mail cím azonosításre és ellenőrzésre szolgálnak nem pedig a foglalások és rendelések felvételére!
+Fontos: 
+* Az első lapon levő "Tulajdonos" és "Üzlet" adatok nem változtathatóak meg a későbbiekben a honlapon keresztül, minden más igen. 
+* Az itt megadott telefonszám és e-mail cím azonosításre és ellenőrzésre szolgálnak, nem pedig a foglalások és rendelések felvételére! 
+* Nem létező cím esetén a regisztráció sikertelen lesz.
+
+![](../../assets/images/onboarding1.png)
 
 Külön említést érdemel még a "Szabályok" lap, ami a foglalás kezelés beállítására szolgál. Itt az objektumok melletti kis kérdőjelek fölé víve az egeret további információ/magyarázat található.
+
+![](../../assets/images/onboarding2.png)
 
 Ezzel a regisztráció létre is jön, és a rendszer a "Naptár" oldalra ugrik.
