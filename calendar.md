@@ -5,9 +5,9 @@ nav_order: 1
 parent: NeerY Rendszer
 ---
 # Naptár
-A naptár nézetben jelennek meg a foglalások és majd a rendelések is (Wolt, Foodpanda integráció folyamatban). A "Függőben" menüsorban az el nem fogadott foglalások találhatóak (lsd Üzemmód). Itt lehet létrehozni asztalt vagy Manuális foglalást (Walk in, telefon, stb) is. Ahhoz, hogy a foglalási rendszer működjön minimum 1 asztal szükséges és a nyitvatartást meg kell határozni. A rendszer nem mutatja a nyitvatartáson kívüli időket/foglalásokat, igaz ezek csak és kizárólag az étterem által hozhatóak létre, vendég által nem!
+A naptár nézetben jelennek meg a foglalások és majd a rendelések is (Wolt, Foodpanda integráció folyamatban). A "Függőben" menüsorban az el nem fogadott foglalások találhatóak (lásd Üzemmód). Itt lehet létrehozni asztalt vagy Manuális foglalást (Walk in, telefon, stb) is. Ahhoz, hogy a foglalási rendszer működjön minimum 1 asztal szükséges és a nyitvatartást meg kell határozni. A rendszer nem mutatja a nyitvatartáson kívüli időket/foglalásokat, igaz ezek csak és kizárólag az étterem által hozhatóak létre, vendég által nem!
 
-![](../../assets/images/calendar_detail.png)
+![](../../assets/images/calendar_detailed.png)
 
 ## Nap váltás
 Napot vagy a dátum melletti nyilakkal, vagy a naptár ikonnal lehet váltani.
