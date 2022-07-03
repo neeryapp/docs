@@ -6,10 +6,10 @@ has_children: true
 ---
 # A Rendszer rövid ismertetése
 
-![](../../assets/images/calendar_detail.png)
+![](../../assets/images/calendar_detailed.png)
 
 ## Főmenü
-A "Főmenü" a képernyő tetején található sáv. Itt lehet helyek között váltani és új helyet létrehozni. Visszajelzést küldeni nekünk, vagy új fejlesztési ötletet ajánlani ("Feedback"), nyelvet változtatni (jelenelg csak angol és magyar nyelv elérhető), illetve kijelentkezni.
+A "_Főmenü_" a képernyő tetején található sáv. A bal oldali legördülő menüben lehet helyek között váltani és új helyet létrehozni. A jobb oldalt található a visszajelzés ("_Feedback_") menüpont, ahol a fejlesztőknek lehet visszajelzést küldeni vagy új fejlesztési ötletet ajánlani. Emellett itt található a nyelv választó (jelenelg csak angol és magyar nyelv elérhető), illetve ugyancsak itt lehet kijelentkezni a felhasználó ikonra kattintva.
 
 ## Almenü
-Az "Almenüben" a "Naptár" illetve a "Profil" nézet között lehet váltani.
+Az "_Almenüben_" a "_Naptár_" illetve a "_Profil_" nézet között lehet jelenleg váltani.

@@ -7,4 +7,6 @@ permalink: /
 
 # NeerY Docs
 
-Üdvözlünk a NeerY dokumentációs oldalán! Itt megtalálsz mindent, amire szükséged van. Ha mégse, [vedd fel velünk a kapcsolatot](mailto:mogery@neery.net) (mogery@neery.net).
+Üdvözlünk a NeerY dokumentációs oldalán! Itt megtalálsz mindent, amire szükséged van. Ha mégsem, [vedd fel velünk a kapcsolatot](mailto:mogery@neery.net) (mogery@neery.net).
+
+A dokumentáció folyamatosan frissül!

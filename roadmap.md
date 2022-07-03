@@ -4,13 +4,15 @@ title: Roadmap
 nav_order: 4
 ---
 # Roadmap
-A kovetkezo funkciok fejelsztesen dolgozunk. Ha szeretnel egy funkciot itt latni, akkor vagy a rendszerben talalhato "Feedback" fulon  vagy az alabbi e-mail cimen keresztul tudod kervenyezni.
-[Szuksegem lenne egy funkciora](mailto:mate@neery.net)
+A következő funkciók fejlesztésén dolgozunk. Ha szeretnél egy funkciót itt látni, akkor vagy a rendszerben található "Feedback" fülön vagy az alábbi e-mail címen keresztül tudod kérvényezni.
+[Szükségem lenne egy funkcióra](mailto:mate@neery.net)
 
-## Funkciok a todo listankon
-* Wolt, Foodpanda stb integracio
-* Dashboard: statisztikak a foglalasokrol, rendelesekrol
-* Foglalasok atmeneti engedelyezese/tiltasa (manualis, idoszakos)
-* User management: tobb felhasznalo is tudja kezelni a helyet kulonbozo jogosultsagokkal
-* Pick-up etelrendeles
-* Applikacio
+## Funkciók a ToDo listánkon
+* Wolt, Foodpanda, stb integráció
+* Dashboard: statisztikák a foglalásokról, rendelésekről
+* Foglalások átmeneti engedélyezése/tiltása (manuális, időszakos)
+* User management: több felhasználó is tudja kezelni a helyet különböző jogosultságokkal
+* Pick-up ételrendelés
+* Applikáció (B2B, B2C)
+* Okos árazás, kedvezmények
+* Szabadságolások integrálása a naptárba
