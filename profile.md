@@ -67,13 +67,8 @@ A következő foglalások jönnek be egy adott időpontban úgy, hogy a 2 fős �
 * Ezután jön egy 5 fős foglalás ugyanarra az időpontra, az 5 fős asztal még szabad, így a rendszer azt automatikusan elfogadja.
 * majd ezután jönne ugyanazon időpontra egy 4 fős foglalás, de a rendszer ezt automatikusna elutasítja, hiszen az összes asztal foglalt.
 
-# Widget
-A widget integrációját segítő menüpont. Amennyiben bővebb technikai segítségre lenne szükséged keress minket bizalommal.
-[Facebook integráció videó](https://www.loom.com/share/2d6c1e6ab24f4c6e98390eb0a517e239)
-
-Az oldalon található teszt widget mindig az adott helyhez van kötve, így itt akár egyből teszthelhed is a foglalási ciklust mielőtt kitennéd azt élesben bárhova.
-
-**Megjegyzés:** a "_NeerY Widget Linkként_" opcióban található link bárhova elhelyezhető, akár egy e-mail aláírásba, vagy csak simán egy facebook üzenetbe is válaszként, a foglalás widget úgy is működni fog.
+# Widgetek
+A widget integrációját segítő menüpont. Az elérhető lehetőségekről bővebben a "_Widgetek_" menüpontban olvashatsz. Amennyiben további technikai segítségre lenne szükséged keress minket bizalommal.
 
 # Törlés
 A hely végleges törlése. Nem visszavonható művelet, minden adatot törlünk a szervereinkről.
