@@ -15,13 +15,26 @@ A widgeteknél található gombok funkciói:
 - QR kód generálás: a linket QR kód formájában készíti el, így akár nyomtatott formában is könnyen terjeszthető (flyerek, matricák, poharak oldalán stb) 
 
 ## Beépülő NeerY Foglalási Widget
-Erre akkor van szükséged, ha a foglalás widgetet a honlapod szerves részéve szeretnéd tenni. Itt egy egysoros scriptet gneerálunk, melyet a honlap kódjába kell beágyazni.
+Erre akkor van szükséged, ha a foglalás widgetet a honlapod szerves részéve szeretnéd tenni. Itt egy egysoros scriptet generálunk, melyet a honlap kódjába kell beágyazni.
+
+Az alapveto szabaly, hogy a widgetet a <body>-ban helyezd el, es ha szeretned, hogy a magyar nyelvu resze mukodjon, akkor UTF-8 charset-re is szukseged lesz.
+
+```html
+<meta charset="UTF-8"> 
+<body>
+    <div >
+        <!--Insert here the script copied from the webpage-->
+        <script src="reservation widget link"></script>
+    <div>
+</body>
+```
+
 Technikai segítség esetén keress minket bizalommal!
 ## NeerY Foglalási Widget linkként
 Ez egy általunk hostolt foglalási widget, így tulajdonképpen a kimásolt link bárhová elhelyezhető, legyen az egy e-mail aláírás, vagy egy automatikus Facebook Messenger üzenet szintúgy, mint egy gomb linkje a honlapodon.
 
 # NeerY Digitális Névjegykártya
-A névjegykártya egy olyan link összesítő, amely az "Információ" menüpontban található összes elemet gyűjti ki és generálja le egy interaktív digitálsi névjegykártyává illetve a "_NeerY Foglalási Widget linkként"_ widgetet is hozzáteszi. Tökéletes megoldás, ha csak egy linkre van lehetőséged (Instagram profil, Facebook "_További Információk"_ gomb, stb) de mindent el szeretnél mondani magadról.
+A névjegykártya egy olyan link összesítő, amely az "Információ" menüpontban található összes elemet gyűjti ki és generálja le egy interaktív digitálsi névjegykártyává illetve a "_NeerY Foglalási Widget linkként"_ widgetet is hozzáteszi. Tökéletes megoldás, ha csak egy linkre van lehetőséged (Instagram profil, Facebook "_További Információk"_ gomb, stb), de mindent el szeretnél mondani magadról.
 ![](../../assets/images/landing.png)
 
 [Facebook integráció videó](https://www.loom.com/share/2d6c1e6ab24f4c6e98390eb0a517e239), mely a "_NeerY Foglalási Widget linkként"_ integrációját mutatja be, mint lehetőség.
