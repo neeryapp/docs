@@ -20,16 +20,16 @@ Erre akkor van szükséged, ha a foglalás widgetet a honlapod szerves részéve
 Az alapvető szabály, hogy a widgetet valahol a <body>-ban helyezd el, es ha szeretnéd, hogy magyar nyleven is működjön, akkor UTF-8 charset-re is szükséged lesz.
 
 ```html
-...
+
 <meta charset="UTF-8"> 
-...
+
 <body>
-    ...
+    
     <div >
         <!--Insert here the script copied from the webpage-->
         <script src="this will be auto-generated in your profile page"></script>
     <div>
-    ...
+    
 </body>
 ```
 
@@ -57,8 +57,6 @@ A Facebbok oldal tetején az "_Edit ..._" gombra kattintva válasszuk ki a megfe
 Majd illesszük be az előzőleg vágólapra másolt linket és mentsük el a változtatást.
 
 ![](../../assets/images/insert_did_3.png)
-
-[Facebook integráció videó](https://www.loom.com/share/2d6c1e6ab24f4c6e98390eb0a517e239), mely a "_NeerY Foglalási Widget linkként"_ integrációját mutatja be, mint lehetőség.
 
 Az oldalon található teszt widget mindig az adott helyhez van kötve, így itt akár egyből teszthelhed is a foglalási ciklust mielőtt kitennéd azt élesben bárhova.
 
