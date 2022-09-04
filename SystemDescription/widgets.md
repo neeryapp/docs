@@ -10,22 +10,26 @@ A NeerY widgetekkel olyan könnyen integrálható megoldásokat nyújtunk, melye
 Az itt található widgetek a foglalást segítik elő. Amennyiben franchise rendszerben gondolkozol és egy összesítő foglalási rendszert szeretnél, keress minket.
 
 A widgeteknél található gombok funkciói:
-- Másolás: a linket, vagy a beillesztendő kódot vágólapra másolja.
+- Link ásolása/Másolás: a linket, vagy a beillesztendő kódot vágólapra másolja.
 - Előnézet: megmutatja a működő, valós widgetet egy új ablakban.
 - QR kód generálás: a linket QR kód formájában készíti el, így akár nyomtatott formában is könnyen terjeszthető (flyerek, matricák, poharak oldalán stb) 
 
 ## Beépülő NeerY Foglalási Widget
 Erre akkor van szükséged, ha a foglalás widgetet a honlapod szerves részéve szeretnéd tenni. Itt egy egysoros scriptet generálunk, melyet a honlap kódjába kell beágyazni.
 
-Az alapveto szabaly, hogy a widgetet a <body>-ban helyezd el, es ha szeretned, hogy a magyar nyelvu resze mukodjon, akkor UTF-8 charset-re is szukseged lesz.
+Az alapvető szabály, hogy a widgetet valahol a <body>-ban helyezd el, es ha szeretnéd, hogy magyar nyleven is működjön, akkor UTF-8 charset-re is szükséged lesz.
 
 ```html
+...
 <meta charset="UTF-8"> 
+...
 <body>
+    ...
     <div >
         <!--Insert here the script copied from the webpage-->
-        <script src="reservation widget link"></script>
+        <script src="this will be auto-generated in your profile page"></script>
     <div>
+    ...
 </body>
 ```
 
@@ -35,7 +39,24 @@ Ez egy általunk hostolt foglalási widget, így tulajdonképpen a kimásolt lin
 
 # NeerY Digitális Névjegykártya
 A névjegykártya egy olyan link összesítő, amely az "Információ" menüpontban található összes elemet gyűjti ki és generálja le egy interaktív digitálsi névjegykártyává illetve a "_NeerY Foglalási Widget linkként"_ widgetet is hozzáteszi. Tökéletes megoldás, ha csak egy linkre van lehetőséged (Instagram profil, Facebook "_További Információk"_ gomb, stb), de mindent el szeretnél mondani magadról.
+
+
 ![](../../assets/images/landing.png)
+
+## Példa a Digitális Névjegykártya integrációjára
+A Digitális Névjegykártya linkje a "_Widget_" menüpont alatt található. Itt a megfelelő menüpontnál "_Link másolása_" gombra kattintva a generált link vágólapra kerül. 
+
+![](../../assets/images/copy_did.png)
+
+Következő lépésként navigáljunk el oda, ahova be szeretnénk illeszteni a linket. Legyen ez most a Facebook profil tetején található gomb.
+A Facebbok oldal tetején az "_Edit ..._" gombra kattintva válasszuk ki a megfelelő opciót, például jelen esetben a "_Contact Us_" megfelelő választás, hiszen a Digitális Névjegykártyán az összes elérhetőségünk, a foglalás és az étlep is elérhető, amennyiben azokat megadtuk.
+
+![](../../assets/images/insert_did_1.png)
+![](../../assets/images/insert_did_2.png)
+
+Majd illesszük be az előzőleg vágólapra másolt linket és mentsük el a változtatást.
+
+![](../../assets/images/insert_did_3.png)
 
 [Facebook integráció videó](https://www.loom.com/share/2d6c1e6ab24f4c6e98390eb0a517e239), mely a "_NeerY Foglalási Widget linkként"_ integrációját mutatja be, mint lehetőség.
 

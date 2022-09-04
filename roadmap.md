@@ -8,7 +8,7 @@ A következő funkciók fejlesztésén dolgozunk. Ha szeretnél egy funkciót it
 [Szükségem lenne egy funkcióra](mailto:mate@neery.net)
 
 ## Funkciók a ToDo listánkon
-* Wolt, Foodpanda, stb integráció
+* Wolt, Foodpanda integráció
 * Dashboard: statisztikák a foglalásokról, rendelésekről
 * Foglalások átmeneti engedélyezése/tiltása (manuális, időszakos)
 * User management: több felhasználó is tudja kezelni a helyet különböző jogosultságokkal
