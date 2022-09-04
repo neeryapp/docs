@@ -15,9 +15,9 @@ Először is jelentkezz be a _"Wolt"_ admin oldalára és navigélj el a _"Menu 
 
 ![](../../assets/images/download_wolt.png)
 
-Ez egy syöveges file-t fog lementeni az eszközödre.
+Ez egy szöveges file-t fog lementeni az eszközödre.
 
-Következő lépésként navigálj el a _"NeerY"_-n belül a _"Profil"_ menüpont alatt található _"Étlap"_ szekcióhoz. Itt kattints "_File feltöltése"_ gombra, majd tallózd be az előzőleg letöltött file-t.
+Következő lépésként navigálj el a _"NeerY-n"_ belül a _"Profil"_ menüpont alatt található _"Étlap"_ szekcióhoz. Itt kattints "_File feltöltése"_ gombra, majd tallózd be az előzőleg letöltött file-t.
 
 Ezzel készen is vagy, feltöltötted az étlapod. Hogy megbizonyosodj róla, hogy minden a legnagyobb rendben működik nézz rá a "_Digitális Névjegykártáyra"_ és ha ott megjelent az _"Étlap"_ opció, akkor minden rendben ment.
 
