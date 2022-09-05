@@ -21,8 +21,8 @@ Az alapvető szabály, hogy a widgetet valahol a <body>-ban helyezd el, es ha sz
 
 ```html
 <head>
-    <!--Insert the UTF-8 meta tag for extended language functionality-->
-    <meta charset="UTF-8"> 
+    <!--Insert the utf-8 meta tag for extended language functionality-->
+    <meta charset="utf-8"/> 
 </head>
 
 <body>
