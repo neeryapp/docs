@@ -19,7 +19,7 @@ Erre akkor van szükséged, ha a foglalás widgetet a honlapod szerves részéve
 
 Az alapvető szabály, hogy a widgetet valahol a <body>-ban helyezd el, es ha szeretnéd, hogy magyar nyleven is működjön, akkor UTF-8 charset-re is szükséged lesz.
 
-```HTML
+```html
 <head>
     <!--Insert the UTF-8 meta tag for extended language functionality-->
     <meta charset="UTF-8"> 
