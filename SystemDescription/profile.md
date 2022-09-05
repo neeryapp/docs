@@ -41,27 +41,30 @@ Példa: az érték 10 nap, 2022.05.01-én a vendég nem tud 2022.05.11. utánra 
 ### Autotable
 Két lehetséges opció létezik: "_Manuális_" és "_Full-auto_".
 **Manuális** esetében a beérkező foglalások mindig bekerülnek a "_Függőben_" menüsorba és a helynek kell gondoskodnia arról, hogy ezeket egyenként elfogadja.
-**Full-auto** esetében a rendszer
+**Full-auto szabályok** esetében a rendszer
 * elutasítja a foglalást, ha az adott időpontra nem található szabad asztal
 * manuálissá teszi a foglalást és beteszi a "_Függőben_" menüsorba, majd erről értesítést küld, ha
 *   - található szabad asztal, de foglalás létszáma nagyobb mint bármelyik üres asztal létszáma
-*   - amennyiben található szabad asztal, de a foglalás létszáma kisebb, mint bármelyik szabad asztal létszáma - 2 vagy bármelyik szabad asztal létszáma / 2.
+*   - amennyiben található szabad asztal, de a foglalás létszáma kisebb, mint bármelyik (szabad asztal létszáma - 2) vagy bármelyik (szabad asztal létszáma / 2).
 * minden más esetben elfogadja a foglalást.
 
 Példák:
+
 A helynek van
 * 1 db 2 fős
 * 1 db 5 fős és
 * 1 db 9 fős asztala
 
-1 példa
+_1.) példa_
+
 A következő foglalások jönnek be, mindegyik teljesen üres asztalok esetében értendő külön példa:
 * Beérkezik egy 10 fős foglalás, mivel nincs ilyen asztal, így a rendszer ezt manuális foglalássá nyílvánítja és a helyre bízza, hogy hogyan kezeli ezt le.
 * Beérkezik egy 1 fős foglalás. A rendszer ezt a 2 fős asztalra teszi automatikusan.
 * Beérkezik egy 5 fős foglalás. A rendszer ezt a 5 fős asztalra teszi automatikusan.
-* Beérkezik egy 6 fős foglalás. A rendszer ezt manuális foglalássá nílvánítja, mivel nincs olyan asztal, ami csak "kicsit" nagyobb (lásd "_Full-auto_" szabályok)
+* Beérkezik egy 6 fős foglalás. A rendszer ezt manuális foglalássá nílvánítja, mivel nincs olyan asztal, ami csak "kicsit" nagyobb (lásd "_Full-auto szabályok_")
 
-2 példa
+_2. példa_
+
 A következő foglalások jönnek be egy adott időpontban úgy, hogy a 2 fős és a 9 fős asztal tele van.
 * Először jön egy 6 fős foglalás, ezt a rendszer automatikusan manuálissá teszi. A hely viszont, amikor átnézi elutasítja.
 * Ezután jön egy 5 fős foglalás ugyanarra az időpontra, az 5 fős asztal még szabad, így a rendszer azt automatikusan elfogadja.
