@@ -10,7 +10,7 @@ A NeerY widgetekkel olyan könnyen integrálható megoldásokat nyújtunk, melye
 Az itt található widgetek a foglalást segítik elő. Amennyiben franchise rendszerben gondolkozol és egy összesítő foglalási rendszert szeretnél, keress minket.
 
 A widgeteknél található gombok funkciói:
-- Link másolása/Másolás: a linket, vagy a beillesztendő kódot vágólapra másolja.
+- Link másolása/másolás: a linket, vagy a beillesztendő kódot vágólapra másolja.
 - Előnézet: megmutatja a működő, valós widgetet egy új ablakban.
 - QR kód generálás: a linket QR kód formájában készíti el, így akár nyomtatott formában is könnyen terjeszthető (flyerek, matricák, poharak oldalán stb) 
 
@@ -20,20 +20,21 @@ Erre akkor van szükséged, ha a foglalás widgetet a honlapod szerves részéve
 Az alapvető szabály, hogy a widgetet valahol a <body>-ban helyezd el, és ha szeretnéd, hogy magyar nyleven is működjön, akkor a UTF-8 karakter szetre is szükséged lesz.
 
 ```html
-<head>
-    <!--Insert the utf-8 meta tag for extended language functionality-->
-    <meta charset="utf-8"/> 
-</head>
+<html>
+    <head>
+        <!--Insert the utf-8 meta tag for extended language functionality-->
+        <meta charset="utf-8">
+    </head>
 
-<body>
-
-    <!--The div is optional, the script can be placed anywhere within the <body>-->
-    <div>
-        <!--Insert here the script copied from the webpage-->
-        <script src="this will be auto-generated in your profile page"></script>
-    </div>
-    
-</body>
+    <body>
+        <!--The div is optional, the script can be placed anywhere within the <body>-->
+        <div>
+            <!--Insert here the script copied from the your NeerY profile page-->
+            <script src="this will be auto-generated in your profile page"></script>
+        </div>
+        
+    </body>
+</html>
 ```
 
 Technikai segítség esetén keress minket bizalommal!
