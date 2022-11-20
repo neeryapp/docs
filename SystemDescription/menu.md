@@ -22,7 +22,7 @@ Pelda egy Kategoriar (Levesek), ami 2 Tetelt tartalmaz
 
 ## Kategória hozzáadása/szerkesztése/törlése
 Az elem hozzaadasa a "_Tetel hozzaadasa_" gombbal tortenik. Ekkor a kovetkezo ablak jelenik meg
-![](../../assets/images/menu_add_item.png)
+![](../../assets/images/menu_add_category.png)
 
 Itt a kategoria pont alatt rendelhetjuk az etelt egy mar letezo kategoriahoz. 
 Az arazas eseteben jelenelg 3 kulonbozo arat lehet megadni, a rendszer online a "_Helybeni arat_" jeleniti meg, amennyiban van. Ha nincs "_Helybeni ar_", akkor az elso valos arat a masik ket mezo kozul (He;ybeni -> Wolt -> Foodpanda).
@@ -31,6 +31,7 @@ Torolni vagy szerkeszteni kategoria tartalmat a kategoriara kattintva lehet, mig
 
 ## Tetel hozzáadása/szerkesztése/törlése
 A tetel eseteben hasonloan tortnik minden mint a kategorianal taglaltak eseteben.
+![](../../assets/images/menu_add_item.png)
 
 ## Sorrend megváltoztatása/kategória váltás
 Amennyiben kategoria sorrendet valtoztatsz, az magaval viszi a kategoria alelemeit is (tetelek), mig a tetelek sorrendje csak kategorian belul tortenhet meg a nyilak segitsegevel. Tetel masik kategoriaba torteno atmozgatasahoz a
