@@ -46,4 +46,4 @@ Következő lépésként kattints "_File feltöltése"_ gombra, majd tallózd be
 
 Ezzel készen is vagy, feltöltötted az étlapod. Hogy megbizonyosodj róla, hogy minden a legnagyobb rendben működik nézz rá a "_Digitális Névjegykártáyra"_ és ha ott megjelent az _"Étlap"_ opció, akkor minden rendben ment.
 
-**Hamarosan innen töltheted fel majd egy kattintással a Wolt vagy Foodpanda oldalára, illetve a jövőben a vendégek itt is rendelhetnek tőled akár elvitelre is!**
+**A menüdet hamarosan innen töltheted fel egy kattintással a Wolt vagy Foodpanda oldalára, illetve a jövőben a vendégek itt is rendelhetnek tőled akár elvitelre is!**
