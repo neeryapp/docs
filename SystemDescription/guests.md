@@ -11,6 +11,9 @@ A rendszer a foglalások alapján automatikusan felismeri a visszatérő vendég
 
 ## Komment hozzáfűzése
 Kommentet a "Ceruza" ikonra kattintva lehet a vendéghez hozzáfűzni.
+
 ![](../../assets/images/guests/editguest.png)
+
+Módosított vendég kártya a "_Vendégek_" menüpont alatt
 
 ![](../../assets/images/guests/editedguest.png)
