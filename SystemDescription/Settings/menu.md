@@ -3,6 +3,7 @@ layout: default
 title: Étlap
 nav_order: 5
 parent: Beállítások
+grand_parent: NeerY Rendszer
 ---
 # Étlap szerkesztő
 

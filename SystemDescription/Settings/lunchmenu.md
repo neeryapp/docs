@@ -3,6 +3,7 @@ layout: default
 title: Ebéd Menü
 nav_order: 6
 parent: Beállítások
+grand_parent: NeerY Rendszer
 ---
 # Ebéd Menü
 

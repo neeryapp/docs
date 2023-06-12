@@ -3,6 +3,7 @@ layout: default
 title: Profil
 nav_order: 2
 parent: Beállítások
+grand_parent: NeerY Rendszer
 ---
 A profil menüpontban változtathatóak meg azok az információk, amik a vendég számára láthatóak vagy információ tartalommal bírnak (pl foglalás esetében).
 

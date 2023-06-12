@@ -3,6 +3,7 @@ layout: default
 title: Fotók
 nav_order: 2
 parent: Beállítások
+grand_parent: NeerY Rendszer
 ---
 # Fotók
 

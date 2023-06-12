@@ -3,6 +3,7 @@ layout: default
 title: Asztalok
 nav_order: 4
 parent: Beállítások
+grand_parent: NeerY Rendszer
 ---
 # Asztalok
 

@@ -3,6 +3,7 @@ layout: default
 title: Widgetek
 nav_order: 7
 parent: Beállítások
+grand_parent: NeerY Rendszer
 ---
 A NeerY widgetekkel olyan könnyen integrálható megoldásokat nyújtunk, melyekkel a potenciális vagy már meglévő vásárlóid kiszolgálása válik egyszerűvé.
 

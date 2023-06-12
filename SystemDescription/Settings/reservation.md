@@ -3,6 +3,7 @@ layout: default
 title: Foglalás
 nav_order: 3
 parent: Beállítások
+grand_parent: NeerY Rendszer
 ---
 # Foglalás
 
