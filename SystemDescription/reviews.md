@@ -19,7 +19,7 @@ Az összes a helyhez beérkezett visszajelzés megtekinthető.
 
 ![](../../assets/images/reviews/reviewcard.png)
 
- ### Az értékelő kártya felépítése
- A felső sorban az ügyfél ("_Vendégek_" menüpont alatt megtalálható), a vendégek száma illetve a foglalás időpontja található.
- A középső sorban az összesített értékelés illetve a visszajelzés feladásának időpontja.
- Míg legalul a foglalás értékelése rendre: "Étel", "Kiszolgálás", "Ár/érték arány" illetve, ha van akkor szöveges komment
+### Az értékelő kártya felépítése
+A felső sorban az ügyfél ("_Vendégek_" menüpont alatt megtalálható), a vendégek száma illetve a foglalás időpontja található.
+A középső sorban az összesített értékelés illetve a visszajelzés feladásának időpontja.
+Míg legalul a foglalás értékelése rendre: "Étel", "Kiszolgálás", "Ár/érték arány" illetve, ha van akkor szöveges komment

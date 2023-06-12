@@ -12,7 +12,6 @@ A következő funkciók fejlesztésén dolgozunk. Ha szeretnél egy funkciót it
 * Wolt, Foodpanda integráció
 * Dashboard: statisztikák a foglalásokról, rendelésekről
 * Foglalások átmeneti engedélyezése/tiltása (manuális, időszakos)
-* User management: több felhasználó is tudja kezelni a helyet különböző jogosultságokkal
 * Pick-up ételrendelés
 * Applikáció (B2B, B2C)
 * Okos árazás, kedvezmények
