@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Widgetek
-nav_order: 3
-parent: NeerY Rendszer
+title: Hozzáférés
+nav_order: 8
+parent: Beállítások
 ---
 A NeerY widgetekkel olyan könnyen integrálható megoldásokat nyújtunk, melyekkel a potenciális vagy már meglévő vásárlóid kiszolgálása válik egyszerűvé.
 
-# Foglalás
+# Hozzáférés
 Az itt található widgetek a foglalást segítik elő. Amennyiben franchise rendszerben gondolkozol és egy összesítő foglalási rendszert szeretnél, keress minket.
 
 A widgeteknél található gombok funkciói:

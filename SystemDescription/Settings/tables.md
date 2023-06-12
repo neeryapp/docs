@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Étlap
-nav_order: 3
-parent: NeerY Rendszer
+title: Asztalok
+nav_order: 4
+parent: Beállítások
 ---
-# Étlap
+# Asztalok
 
 Az _"Étlap"_ menüpont esetében a saját menüdet töltheted fel hozzánk és innen egyszerűen frissítheted a különböző futár oldalakon található megjelenésedet és árazásodat, illetve az étlap megjelenik a "_Digitális Névjegykártyán"_ is, így azt bárki könnyen elérheti.
 
