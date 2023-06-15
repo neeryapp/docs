@@ -13,6 +13,6 @@ A hely létrehozhat asztal csoportokat, melyek kizárólag az "_Foglalás/Autota
 
 Példa
 ![](../../assets/images/tables/tableGroup.png)
-Jelen esetben ebben a csoportban 2 asztal található. Amennyiben egy adott időpontra 2 független rendelés jön, az egyik mondjuk 4, míg a másik 6 fő, akkor a rendszer automatikusan kiosztja a 2 asztalt a 2 rendeléshez. 
+Jelen esetben ebben a csoportban 2 asztal található. Amennyiben egy adott időpontra 2 független foglalás jön, az egyik mondjuk 4, míg a másik 6 fő, akkor a rendszer automatikusan kiosztja a 2 asztalt a 2 külön foglaláshoz. 
 
-Amennyiben azonban egy adott időpontra érkezik egy 10 fős rendelés, és nincs másik ekkora férőhelyű asztal, akkor a rendszer a csoportra osztja ki a foglalást és azt mindkét asztalra felteszi. Így segítve azt, hogy egymáshoz közeli, össze vagy széttolható asztalokat hozzunk létre a rendszerben a kapacitás rugalmasabb eloszlása végett.
+Amennyiben azonban egy adott időpontra érkezik egy 10 fős foglalás, és nincs másik ekkora férőhelyű asztal, akkor a rendszer a csoportra osztja ki a foglalást és azt mindkét asztalra felteszi. Így segítve azt, hogy egymáshoz közeli, össze vagy széttolható asztalokat hozzunk létre a rendszerben a kapacitás rugalmasabb elosztása végett.
