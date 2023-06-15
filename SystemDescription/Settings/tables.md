@@ -6,20 +6,13 @@ parent: Beállítások
 grand_parent: NeerY Rendszer
 ---
 # Asztalok
+Itt vihetőek fel az asztalok, amik a "_Naptár_"-ban megjelennek.
 
-Az _"Étlap"_ menüpont esetében a saját menüdet töltheted fel hozzánk és innen egyszerűen frissítheted a különböző futár oldalakon található megjelenésedet és árazásodat, illetve az étlap megjelenik a "_Digitális Névjegykártyán"_ is, így azt bárki könnyen elérheti.
+## Csoportok
+A hely létrehozhat asztal csoportokat, melyek kizárólag az "_Foglalás/Autotable/Automatic_" foglalás elosztás esetében fontosak. Ha manuálisan fogadjuk/hozzuk létre a foglalást, akkor a helyre van bízva a megfelelő asztal és vendégcsoport/létszám összerendelése. Viszont, amennyiben a rendszer automatikusan fogadja a foglalásokat, akkor az egy csoportba rendezett asztalok létszáma összeadódhat.
 
-**Fejlesztés alatt, jelenleg csak a _Wolt_ menü _NeerY-be_ történő átmásolása működik, folyamatosan frissül!**
+Példa
+![](../../assets/images/tables/tableGroup.png)
+Jelen esetben ebben a csoportban 2 asztal található. Amennyiben egy adott időpontra 2 független rendelés jön, az egyik mondjuk 4, míg a másik 6 fő, akkor a rendszer automatikusan kiosztja a 2 asztalt a 2 rendeléshez. 
 
-# Wolt menü szinkronizálása a NeerY rendszerbe
-Először is jelentkezz be a _"Wolt"_ admin oldalára és navigélj el a _"Menu editor"_ részre. Itt a jobb fölső sarokban találhatő "..."-ra kattintva az _"Export entire menu as JSON"_ opciót válaszd.
-
-![](../../assets/images/download_wolt.png)
-
-Ez egy szöveges file-t fog lementeni az eszközödre.
-
-Következő lépésként navigálj el a _"NeerY-n"_ belül a _"Profil"_ menüpont alatt található _"Étlap"_ szekcióhoz. Itt kattints "_File feltöltése"_ gombra, majd tallózd be az előzőleg letöltött file-t.
-
-Ezzel készen is vagy, feltöltötted az étlapod. Hogy megbizonyosodj róla, hogy minden a legnagyobb rendben működik nézz rá a "_Digitális Névjegykártáyra"_ és ha ott megjelent az _"Étlap"_ opció, akkor minden rendben ment.
-
-**Az étlap hamarosan szerkeszthető lesz a NeerY felületén is és innen töltheted fel majd egy kattintással a Wolt vagy Foodpanda oldalára, illetve a jövőben a vendégek itt is rendelhetnek tőled akár elvitelre is!**
+Amennyiben azonban egy adott időpontra érkezik egy 10 fős rendelés, és nincs másik ekkora férőhelyű asztal, akkor a rendszer a csoportra osztja ki a foglalást és azt mindkét asztalra felteszi. Így segítve azt, hogy egymáshoz közeli, össze vagy széttolható asztalokat hozzunk létre a rendszerben a kapacitás rugalmasabb eloszlása végett.
