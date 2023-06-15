@@ -7,37 +7,37 @@ grand_parent: NeerY Rendszer
 ---
 # Étlap szerkesztő
 
-Az _"Étlap szerkesztő"_ menüpont esetében a saját menüdet töltheted fel hozzánk és innen egyszerűen frissítheted a különböző futár oldalakon található megjelenésedet és árazásodat, illetve az étlap megjelenik a "_Digitális Névjegykártyán"_ is, így azt bárki könnyen elérheti.
+Az _"Étlap"_ menüpont esetében a saját menüdet töltheted fel hozzánk és innen egyszerűen frissítheted a különböző futár oldalakon található megjelenésedet és árazásodat, illetve az étlap megjelenik a _"Widgeten"_ is, így azt bárki könnyen elérheti.
 
-**Fejlesztés alatt, jelenleg csak manuális szerkesztés illetve a _Wolt_ menü _NeerY-be_ történő átmásolása működik, folyamatosan frissül!**
+**Fejlesztés alatt, jelenleg csak manuális szerkesztés, a _Wolt_ menü _NeerY-be_ történő feltöltése, illetve _NeerY_-ből _Wolt_-ba történő automatikus szinkronizálás működik, folyamatosan frissül!**
 
-# Manuális szerkesztés
-A menu feltoltese a kovetkezo gombokkal tortenik:
-![](../../assets/images/menu_upload.png)
-* Tetel hozzaadasa: Tetel alatt az etelt/italt ertjuk a NeerY rendszerben
-* Kategoria hozzaadasa: A tetelek kategoriakba csoportosithatoak (pl: Levesek), kategoriaknak leirasuk es nevuk van
-* File feltoltese: Bovebben a "Wolt menü szinkronizálása a NeerY rendszerbe" pont alatt olvashatsz rola
+# Menü szerekesztő
+![](../../assets/images/menu/menubuttons.png)
 
-![](../../assets/images/menu_example.png)
-Pelda egy Kategoriar (Levesek), ami 2 Tetelt tartalmaz
+Az étkapod szerekesztéséhez és karbantartásához jelenelg a következő opciókat kínáljuk.
+- Új kategória: Étel kategóriák/csoportok létrehozás, pl: Levesek
+- Új étel: Új étel létreozása
+- Wolt feltöltés: a Wolt rendszeréből importálhatod a már meglevő menüdet. Lásd "_Wolt menü importálása_".
 
-## Kategória hozzáadása/szerkesztése/törlése
-Az elem hozzaadasa a "_Tetel hozzaadasa_" gombbal tortenik. Ekkor a kovetkezo ablak jelenik meg
-![](../../assets/images/menu_add_category.png)
+Amennyiben a _Wolt_ menüt töltik fel a NeerY rendszerbe, akkor természetesen az ottani struktúrát hozzuk létre.
 
-Itt a kategoria pont alatt rendelhetjuk az etelt egy mar letezo kategoriahoz. 
-Az arazas eseteben jelenelg 3 kulonbozo arat lehet megadni, a rendszer online a "_Helybeni arat_" jeleniti meg, amennyiban van. Ha nincs "_Helybeni ar_", akkor az elso valos arat a masik ket mezo kozul (He;ybeni -> Wolt -> Foodpanda).
+## Új Étel
+![](../../assets/images/menu/addfood.png)
 
-Torolni vagy szerkeszteni kategoria tartalmat a kategoriara kattintva lehet, mig a sorrend a kategoria vegen talalhato fol-le nyilakkal tortenhet.
+Étel hozzáadása vagy szerkesztése esetében 
+- a Kategória csak akkor választható, ha már létezik létrehozott kategória, 
+- az ár közül a Wolt-ra csak a Wolt-ár szinkronizálódik vissza, illetve a Widgeten mindig a legalacsonyabb ár jelenik meg.
+- A Kiemelt mező pedig a _Widget_ főoldalán mutatja a kiemelt ételt
+![](../../assets/images/menu/featuredfood.png)
 
-## Tetel hozzáadása/szerkesztése/törlése
-A tetel eseteben hasonloan tortnik minden mint a kategorianal taglaltak eseteben.
-![](../../assets/images/menu_add_item.png)
+## Kategóriák, ételek mozgatása
+![](../../assets/images/menu/menueditor.png)
+Akár ételről, akár kategóriáról bbeszélünk a kezelő gombok ugyanazt jelentik.
+- A "nyilakkal" lehet a kategóriákat és benne az összes ételt föl-le mozgatni, vagy az ételeket kategórián belül.
+- A "ceruza" gomb az adott étel/kategória szerkesztését teszi lehetővé, míg
+- Az "X" gomb az adott elem törlését, mely kategória esetén az összes benne foglalt étel törlését is jelenti.
 
-## Sorrend megváltoztatása/kategória váltás
-Amennyiben kategoria sorrendet valtoztatsz, az magaval viszi a kategoria alelemeit is (tetelek), mig a tetelek sorrendje csak kategorian belul tortenhet meg a nyilak segitsegevel. Tetel masik kategoriaba torteno atmozgatasahoz a
-
-# Wolt menü szinkronizálása a NeerY rendszerbe
+# Wolt menü importálása a NeerY rendszerbe
 Először is jelentkezz be a _"Wolt"_ admin oldalára és navigélj el a _"Menu editor"_ részre. Itt a jobb fölső sarokban találhatő "..."-ra kattintva az _"Export entire menu as JSON"_ opciót válaszd.
 
 ![](../../assets/images/download_wolt.png)
@@ -46,6 +46,9 @@ Ez egy szöveges file-t fog lementeni az eszközödre.
 
 Következő lépésként kattints "_File feltöltése"_ gombra, majd tallózd be az előzőleg letöltött file-t.
 
-Ezzel készen is vagy, feltöltötted az étlapod. Hogy megbizonyosodj róla, hogy minden a legnagyobb rendben működik nézz rá a "_Digitális Névjegykártáyra"_ és ha ott megjelent az _"Étlap"_ opció, akkor minden rendben ment.
+Ezzel készen is vagy, feltöltötted az étlapod. Hogy megbizonyosodj róla, hogy minden a legnagyobb rendben működik nézz rá a "_Widgetre"_ és ha ott megjelent az _"Étlap"_ opció, akkor minden rendben ment.
 
-**A menüdet hamarosan innen töltheted fel egy kattintással a Wolt vagy Foodpanda oldalára, illetve a jövőben a vendégek itt is rendelhetnek tőled akár elvitelre is!**
+# Szinkronizáció a Wolt felé
+**Ahhoz, hogy visszaszinkronizáld az étlapodat a _Wolt_ rendszerébe előtte egy API hívás jóváhagyásra van szükség, ez néha 1-2 napig is eltarthat, ha nem menne a szinkronizáció keress fel minket!**
+
+Amennyiben megvan a _Wolt_-tal való összeköttetés, onnantól, ha itt változtatsz bármit, akkor az visszaszinkronizálódik a Wolt rndszerébe is. Természetesen az ár esetében csak a Wolt ár.

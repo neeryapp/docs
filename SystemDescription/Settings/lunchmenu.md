@@ -7,7 +7,7 @@ grand_parent: NeerY Rendszer
 ---
 # Ebéd Menü
 
-A hely létrehozhat minden hétre egy ebédmenüt, mely megjelenik a widgeten.
+A hely létrehozhat minden hétre egy ebédmenüt, mely megjelenik a Widgeten.
 
 ![](../../assets/images/lunchmenu/lunchmenu.png)
 
@@ -15,4 +15,4 @@ Először is az "Időtartam"-ot kell beállítani, majd utána minden napra kit�
 Az üresen hagyott menü elemek nem jelennek meg a widgeten.
 
 ![](../../assets/images/lunchmenu/widgetpreview.png)
-Így jelenik meg egy ebédmenü leem a Widgeten
+Példa egy ebédmenü elemre a Widgeten
