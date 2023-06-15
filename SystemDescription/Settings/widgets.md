@@ -11,7 +11,11 @@ Amennyiben franchise rendszerben gondolkozol és egy összesítő foglalási ren
 
 A widget a NeerY szerverein fut és neked ezzel nincs más dolgod, minthogy a legenerált linket elhelyezd bárhová. Legyen ez akár egy Facebook post, Instagram info oldal, levél aláírás. Amennyiben a meglevő honlapodba szeretnéd beágyazni keress minket bizalommal.
 
-[Teszt widget példa] (https://places.neery.net/land/n666)
+Teszt widget példa
+```html
+https://places.neery.net/land/n666
+```
+
 
 ## Példa a Digitális Névjegykártya integrációjára
 Miután kimásoltad a Widget linkjét (kattints a link melletti gombra), már csak be kell illesztened a megfelelő helyre.
@@ -29,8 +33,8 @@ Majd illesszük be az előzőleg vágólapra másolt linket és mentsük el a v�
 Az oldalon található teszt widget mindig az adott helyhez van kötve, így itt akár egyből teszthelhed is a foglalási ciklust mielőtt kitennéd azt élesben bárhova.
 
 ### Csak a foglalási rész megjelenítése
-HA nem akarod a teljes interaktív widgetet kitenni, hanem csak a fogalásra van szükséged, akkor a link végére írd oda, hogy "/reserve".
-Példa
+Ha nem akarod a teljes interaktív widgetet kitenni, hanem csak a fogalásra van szükséged, akkor a link végére írd oda, hogy "/reserve".
+
 A teljes widget linkje 
 ```html
 https://places.neery.net/land/n666

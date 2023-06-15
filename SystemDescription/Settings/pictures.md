@@ -7,4 +7,4 @@ grand_parent: NeerY Rendszer
 ---
 # Profilképek
 
-Az it feltöltött fényképek a "_Widget_" fejlécében jelennek meg.
+Az itt feltöltött fényképek a "_Widget_" fejlécében jelennek meg.
