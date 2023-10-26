@@ -16,6 +16,7 @@ Teszt widget példa
 https://places.neery.net/land/n666
 ```
 
+A linkek mellett található "_Másolás_" ikonra kattintva a rendszer vágólapra másolj a linket.
 
 ## Példa a Digitális Névjegykártya integrációjára
 Miután kimásoltad a Widget linkjét (kattints a link melletti gombra), már csak be kell illesztened a megfelelő helyre.
@@ -35,12 +36,17 @@ Az oldalon található teszt widget mindig az adott helyhez van kötve, így itt
 ### Csak a foglalási rész megjelenítése
 Ha nem akarod a teljes interaktív widgetet kitenni, hanem csak a fogalásra van szükséged, akkor a link végére írd oda, hogy "/reserve".
 
-A teljes widget linkje 
+A teljes widget linkje (példa)
 ```html
 https://places.neery.net/land/n666
 ```
 
-Csak a foglalásé
+Csak a foglalásé (példa)
 ```html
 https://places.neery.net/land/n666/reserve
 ```
+
+## Rövid link
+Lehetőség van arra, hogy a rendszer által generált hosszú (statikus és ezáltal soha meg nem változó ID) mellé, a hely egy rövidebb, vagy beszédesebb linket generáljon magának. <br>
+**Fontos** Amennyiben ezt a linket a hely megváltoztatja, akkor ezt a változást minden beillesztett (pl, FB, insta stb) rövid link esetében el kell végezni.
+<br>
