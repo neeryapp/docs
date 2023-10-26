@@ -8,7 +8,7 @@ has_children: true
 # Értékelések
 A naptár nézetben jelennek meg a foglalások és majd a rendelések is. A "_Függőben_" menüsorban az el nem fogadott foglalások találhatóak (lásd "_Profil_"/"_Üzemmód_"). Itt lehet létrehozni asztalt vagy Manuális foglalást (Walk in, telefon, stb) is. Ahhoz, hogy a foglalási rendszer működjön minimum 1 asztal szükséges és a nyitvatartást meg kell határozni. A rendszer nem mutatja a nyitvatartáson kívüli időket/foglalásokat, igaz ezek csak és kizárólag az étterem által hozhatóak létre, vendég által nem!
 
-![](../../assets/images/calendar_detailed.png)
+![](../../assets/images/landing.png)
 
 ## Nap váltás
 Napot vagy a dátum melletti nyilakkal vagy a naptár ikonnal lehet váltani.

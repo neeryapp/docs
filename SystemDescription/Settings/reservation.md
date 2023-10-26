@@ -10,6 +10,10 @@ Itt állíthatsz be minden foglaláshoz köthető információt és szabályt.
 
 ### Értesítő e-mail
 Erre az e-mail címre küldünk értesítést, ha bármilyen változás történt a foglalásokban.
+### Értesítő e-mail engedélyezése
+Amennyiben ez a mező nincs kipipálva, akkor a rendszer nem küld minden egyes foglalásról értesítést a megadott mailcímre
+### Automatikus emlékeztető
+Amennyiben ez a mező be van pipálva, akkor a rendszer küld a vendégnek egy extra értesítést 3 órával a foglalás kezdete előtt. A mail tartalmazza a foglalás adatait és a foglalás módosítása/lemondása linket.
 ### Foglalás időpont-granularitás
 A foglalások ilyen időközökkel hozhatóak létre a nyitástól kezdődően.
 Példa: a granularitás 15 percre van állítva, ekkor a vedégek a widgeten keresztül minden óra 00, 15, 30 és 45 percére foglalhatnak.
@@ -54,3 +58,6 @@ A következő foglalások jönnek be egy adott időpontban úgy, hogy a 2 fős �
 * Először jön egy 6 fős foglalás, ezt a rendszer automatikusan manuálissá teszi. A hely viszont, amikor átnézi elutasítja.
 * Ezután jön egy 5 fős foglalás ugyanarra az időpontra, az 5 fős asztal még szabad, így a rendszer azt automatikusan elfogadja.
 * majd ezután jönne ugyanazon időpontra egy 4 fős foglalás, de a rendszer ezt automatikusna elutasítja, hiszen az összes asztal foglalt.
+
+### További szolgáltatások
+Csak azok az eytra szolgáltatások jelennek meg a vendégnek választhatóan, amikor foglalni szeretne, amik be vannak pipálva.
