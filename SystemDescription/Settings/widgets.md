@@ -18,6 +18,8 @@ https://places.neery.net/land/n666
 
 A linkek mellett található "_Másolás_" ikonra kattintva a rendszer vágólapra másolj a linket.
 
+A rendszer alapvetően egy abszolút, soha meg nem változó linket generál ("_Hosszú link"_), melyet alapvetően oda ajánlunk beillszteni, ahol maga a link "tartalma" nem látszik. Emellett lehetőség van egy link alias generálására (_"Rövid link"_), melyet a hely tetszőlegesen megválaszthat (pár szabályt betartva). Ez a link párhuzamosan működik a másikkal és funkcióját tekintve teljesen mindegy melyiket használjuk. Az egyetlen különbség, hogy mivel a "Rövid link" megváltoztatható, így a változtatás után a helynek mindenhol, ahol ezt használta le kell cserélnie az új linkre a régit.
+
 ## Példa a Digitális Névjegykártya integrációjára
 Miután kimásoltad a Widget linkjét (kattints a link melletti gombra), már csak be kell illesztened a megfelelő helyre.
 
@@ -49,4 +51,7 @@ https://places.neery.net/land/n666/reserve
 ## Rövid link
 Lehetőség van arra, hogy a rendszer által generált hosszú (statikus és ezáltal soha meg nem változó ID) mellé, a hely egy rövidebb, vagy beszédesebb linket generáljon magának. <br>
 **Fontos** Amennyiben ezt a linket a hely megváltoztatja, akkor ezt a változást minden beillesztett (pl, FB, insta stb) rövid link esetében el kell végezni.
-<br>
+A rövid/custom widget linkje (példa)
+```html
+https://places.neery.net/land/neery_etterem
+```
