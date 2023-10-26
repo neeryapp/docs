@@ -51,6 +51,7 @@ https://places.neery.net/land/n666/reserve
 ## Rövid link
 Lehetőség van arra, hogy a rendszer által generált hosszú (statikus és ezáltal soha meg nem változó ID) mellé, a hely egy rövidebb, vagy beszédesebb linket generáljon magának. <br>
 **Fontos** Amennyiben ezt a linket a hely megváltoztatja, akkor ezt a változást minden beillesztett (pl, FB, insta stb) rövid link esetében el kell végezni.
+
 A rövid/custom widget linkje (példa)
 ```html
 https://places.neery.net/land/neery_etterem
