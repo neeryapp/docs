@@ -7,7 +7,7 @@ has_children: false
 ---
 # Hívások
 
-**FONTOS: az AI hívásfogadás jelenleg teszt özemmódban üzemel, felelősséget ezért nem vállalunk**
+**FONTOS: az AI hívásfogadás jelenleg teszt üzemmódban üzemel, csak saját felelősségre használható**
 
 Amennyiben a beállításokban a "_Hívások"_ menüpontban be lett állítva egy AI telefonszám, akkor a bejövő hívások szövegezése itt jelenik meg. A hívások visszaolvashatóak és visszahllgathatóak.
 
