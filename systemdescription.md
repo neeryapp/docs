@@ -6,10 +6,33 @@ has_children: true
 ---
 # A Rendszer rövid ismertetése
 
-![](../../assets/images/calendar_detailed.png)
+![](../../assets/images/landing.png)
 
 ## Főmenü
-A "_Főmenü_" a képernyő tetején található sáv. A bal oldali legördülő menüben lehet helyek között váltani és új helyet létrehozni. A jobb oldalt található a visszajelzés ("_Feedback_") menüpont, ahol a fejlesztőknek lehet visszajelzést küldeni vagy új fejlesztési ötletet ajánlani. Emellett itt található a nyelv választó (jelenelg csak angol és magyar nyelv elérhető), illetve ugyancsak itt lehet kijelentkezni a felhasználó ikonra kattintva.
+A "_Főmenü_" a képernyő bal oldalán található sáv. Föntröl lefelé haladva jelenleg a következő menüpontok között lehet választani
+* Hely választó: Amennyiben több is lenne, illetve új hely létrehozása
+* Naptár nézet: A jelenelgi foglalások és események "_Lista_" vagy "_Naptár_" nézetbe rendezve, illetve a bejövő még el nem fogadott foglalások listája.
+* Beállítások: Minden a hellyel kapcsolatos beállítás itt található
+* Értékelésk: Az összes vendégértékelés
+* Vendégek
+* Hívások: Teszt funkcionalitás, AI alapú telfonos rendelésfelvétel
+* Statisztika
 
-## Almenü
-Az "_Almenüben_" a "_Naptár_", "_Profil_" illetve az _"Étlap szerkesztő"_  nézet között lehet jelenleg váltani.
+## Naptár
+A rendszer a bejelentkezés után automatikusan a "_Naptár_" mezőre ugrik, itt lehet kezelni a foglalásokat és az eseményeket.
+
+![](../../assets/images/landing_2.png)
+
+A fölső menüsorban sorakoznak az el nnem fogadott foglalások, illetve itt lehet kézzel foglalást vagy eseményt létrehozni. <br>
+Alatta a nap választó menü, a nyomtatási kép, és a naptér illetve/lista nézet közötti váltás ikonjai, illetve egy kis statisztika az adott napról/időszakról. <br>
+A képernyő legnagyobb részét az elfogadott foglalások listája (vagy mindez naptár nézetben megjelenítve) foglalja el. Egy foglalás jellemzően a következő adatokat tartalmazza:
+* A vendég neve
+* Elérhetőségei: **Amennyiben a manuális foglalás során megadunk mailcímet, akkor arra a rendszer egy értesítést is küld!**
+* Létszám
+* Asztalok, amikre a foglalás került
+* Allergiák, egyéb igények
+* A vendég kommentje
+* A hely kommentje
+* Megérkezett-e már, illetve elhagyta-e már a helyet, így felszabadítható-e az asztal
+
+Minden foglalás kártya esetében a teljes információ végett kérjükkattints az (i) info gombra!
