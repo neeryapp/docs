@@ -5,7 +5,7 @@ nav_order: 1
 parent: NeerY Rendszer
 ---
 # Naptár
-A naptár nézetben jelennek meg a foglalások. A "_Függőben_" menüsorban ("Példa Foglalás") az automatikus üzemmód által el nem fogadott foglalások találhatóak (lásd "_todo_"). Illetve itt lehet létrehozni "Manuális foglalást" (Walk in, telefon, stb) és "Rendezvényt" is. Ahhoz, hogy a foglalási rendszer működjön minimum 1 asztal szükséges ("_Beállítások/Asztalok_") és a nyitvatartást ("_Beállítások/Foglalás_") meg kell határozni. A rendszer nem mutatja a nyitvatartáson kívüli időket/foglalásokat, igaz ezek csak és kizárólag az étterem által hozhatóak létre, vendég által nem!
+A naptár nézetben jelennek meg a foglalások. A "_Függőben_" menüsorban ("Példa Foglalás") az automatikus üzemmód által el nem fogadott foglalások találhatóak. Illetve itt lehet létrehozni "Manuális foglalást" (Walk in, telefon, stb) és "Rendezvényt" is. Ahhoz, hogy a foglalási rendszer működjön minimum 1 asztal szükséges ("_Beállítások/Asztalok_") és a nyitvatartást ("_Beállítások/Foglalás_") meg kell határozni. A rendszer nem mutatja a nyitvatartáson kívüli időket/foglalásokat, igaz ezek csak és kizárólag az étterem által hozhatóak létre, vendég által nem!
 
 ## Teljes naptár nézet
 

@@ -10,9 +10,7 @@ A következő funkciók fejlesztésén dolgozunk. Ha szeretnél egy funkciót it
 ## Funkciók a ToDo listánkon
 * Folyamatos UX javítások
 * Wolt, Foodpanda integráció
-* Dashboard: statisztikák a foglalásokról, rendelésekről
-* Foglalások átmeneti engedélyezése/tiltása (manuális, időszakos)
 * Pick-up ételrendelés
-* Applikáció (B2B, B2C)
+* Helybeni rendelés asztalonként
 * Okos árazás, kedvezmények
-* Szabadságolások integrálása a naptárba
+* Applikáció (B2B, B2C)
