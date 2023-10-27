@@ -4,9 +4,8 @@ title: Regisztráció
 nav_order: 2
 ---
 # Regisztráció
-**Fontos:** A termék használata regisztrációhoz kötött. Az azonosítás Google account-tal történik, ennek megléte jelenleg elengedhetetlen.
 
-A [főoldalon](https://places.neery.net) a "_Kezdd el_" gombra kattintva kezdhető el a regisztrációs folyamat. Itt először a Google fiókkal kell bejelentkezni, majd végigvezetünk a szükséges információ kitöltésén.
+A [főoldalon](https://places.neery.net) a "_Kezdd el_" gombra kattintva kezdhető el a regisztrációs folyamat. Itt lehetőség van Google fiókkal bejelentkezni, vagy bármilyen e-maillel. E-mail esetén a megadott e-mail címre küldünk egy linket, amivel bejelentkezhet a felhasználó. Ezután kezdődhet a hely regisztrációja, ahol végigvezetünk a szükséges információ kitöltésén.
 
 # Első lap
 

@@ -13,7 +13,7 @@ A "_Főmenü_" a képernyő bal oldalán található sáv. Föntröl lefelé hal
 * Hely választó: Amennyiben több is lenne, illetve új hely létrehozása
 * Naptár nézet: A jelenelgi foglalások és események "_Lista_" vagy "_Naptár_" nézetbe rendezve, illetve a bejövő még el nem fogadott foglalások listája.
 * Beállítások: Minden a hellyel kapcsolatos beállítás itt található
-* Értékelésk: Az összes vendégértékelés
+* Értékelések: Az összes vendégértékelés
 * Vendégek
 * Hívások: Teszt funkcionalitás, AI alapú telfonos rendelésfelvétel
 * Statisztika

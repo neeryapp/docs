@@ -57,7 +57,7 @@ Ahhoz, hogy foglalások megvalósulhassanak létre kell hozni (legalább) 1 aszt
 Manuális foglalás esetén egy foglalást bármennyi asztalon el lehet helyezni.
 
 ## Rendezvény létrehozása
-A rendezvények olyan elemek jelenleg, melyek az adott időtartamra az összes eérhető asztalt lefoglalják, ezáltal vendégek által nem lesznek foglalhatóak. 
+A rendezvények olyan elemek jelenleg, melyek az adott időtartamra az összes elérhető asztalt lefoglalják, ezáltal vendégek által nem lesznek foglalhatóak. 
 Rendezvényeknek kezdő és végső időpontjuk van csak.
 
 ## Üzemmód
