@@ -17,9 +17,9 @@ A [főoldalon](https://places.neery.net) a "_Kezdd el_" gombra kattintva kezdhet
 
 A megfelelően kitöltött adatok esetén a "_Tovább_" gomb kiszíneződik és a következő mezőre léphetünk.
 
-# Második lap
-
 ![](../../assets/images/onboarding/screen_1.png)
+
+# Második lap
 
 Amennyiben az étterem létezik és a Google adatbázisában elérhetőek adatok, akkor ezek automatikusan kitöltődnek. Ellenkező esetben, vagy ha a felhasználó más adatokat szeretne megadni, akkor felülírhatja ezeket.
 * A "_Kapcsolat_" adatok azon adatok, melyeken keresztül a vevő elérheti az éttermet és leadhat foglalást pl. Ezek az adatok bármikor megváltoztathatóak majd a jövőben a felhasznló által is.
