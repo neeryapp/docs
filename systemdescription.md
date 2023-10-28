@@ -17,13 +17,29 @@ A "_Főmenü_" a képernyő bal oldalán található sáv. Föntröl lefelé hal
 * Vendégek
 * Hívások: Teszt funkcionalitás, AI alapú telfonos rendelésfelvétel
 * Statisztika
+* Hely szüneteltetése
+
+## Hely szüneteltetése
+
+![](../../assets/images/calendar/pause_place.png)
+
+Ha valamiért erre szükség lenne (csúcsidő, előre nem látott probléma, stb), akkor pár kattintással szüneteltetheted a helyed. Ekkor a vendégek online nem tudnak foglalást leadni a helyedre a megadott időszakban. Itt 2 opciót kínálunk:
+* Szüneteltetés visszavonásig: a hely egészen addig szünetel, amig valaki, aki erre jogosult ezt meg nem szünteti
+* Megadott időpontig: ekkor egy fix időpontot lehet megadni, ameddig a hely szünetelni fog, majd ennek lejártával automatikusan újra elérhetővé válik a vendégeknek.
+
+![](../../assets/images/calendar/pause_place_modal.png)
+
+**Fontos** A szünetetltetés bármikor megszakítható a megfelelő gomra kattintva.
+
+![](../../assets/images/calendar/resume_place.png)
+
 
 ## Naptár
 A rendszer a bejelentkezés után automatikusan a "_Naptár_" mezőre ugrik, itt lehet kezelni a foglalásokat és az eseményeket.
 
 ![](../../assets/images/landing_2.png)
 
-A fölső menüsorban sorakoznak az el nnem fogadott foglalások, illetve itt lehet kézzel foglalást vagy eseményt létrehozni. <br>
+A fölső menüsorban sorakoznak az el nem fogadott foglalások, illetve itt lehet kézzel foglalást vagy eseményt létrehozni. <br>
 Alatta a nap választó menü, a nyomtatási kép, és a naptér illetve/lista nézet közötti váltás ikonjai, illetve egy kis statisztika az adott napról/időszakról. <br>
 A képernyő legnagyobb részét az elfogadott foglalások listája (vagy mindez naptár nézetben megjelenítve) foglalja el. Egy foglalás jellemzően a következő adatokat tartalmazza:
 * A vendég neve
@@ -35,4 +51,4 @@ A képernyő legnagyobb részét az elfogadott foglalások listája (vagy mindez
 * A hely kommentje
 * Megérkezett-e már, illetve elhagyta-e már a helyet, így felszabadítható-e az asztal
 
-Minden foglalás kártya esetében a teljes információ végett kérjükkattints az (i) info gombra!
+Minden foglalás kártya esetében a teljes információ végett kérjük kattints az (I) info gombra!
