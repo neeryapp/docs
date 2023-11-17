@@ -56,3 +56,41 @@ A rövid/custom widget linkje (példa)
 ```html
 https://places.neery.net/land/neery_etterem
 ```
+
+
+## iframe komponens
+
+Példa beillesztés egy "üres" html file esetében
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        .responsive-iframe {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <title>Embedded Iframe Example</title>
+</head>
+<body>
+    <div class="iframe-container">
+        <iframe class="responsive-iframe" src="paste-your-iframe-link-here" frameborder="0" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
+```
